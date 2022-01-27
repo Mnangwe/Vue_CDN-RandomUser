@@ -2,6 +2,9 @@
     margin: 30px auto;
     padding: auto;
 }
+h4 {
+    text-align: center;
+}
 .card {
     margin: auto;
   
