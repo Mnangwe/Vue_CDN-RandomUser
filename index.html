@@ -13,7 +13,8 @@
 <body>
     
     <div id="app">
-       <h4><marquee behavior="" direction="" width="40%">Random User | Fetch Function | VUE CDN</marquee></h4> 
+       <p><marquee behavior="" direction="" width="60%">Random User | Fetch Function | VUE CDN</marquee></p> 
+       <div class="container">
         <div class="card">
             <img :class="gender" :src="picture" alt="`{{firstName}} {{lastName}}`">
             <h1>{{firstName}} {{lastName}} </h1>
@@ -21,6 +22,9 @@
             <button v-on:click="getUser()" :class="gender">Get Random User</button>
 
         </div>
+       </div>
+       
+       
         
     </div>
 
